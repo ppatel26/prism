@@ -1,0 +1,56 @@
+id: c1-economist
+name: The Economist
+family: C
+version: 1.0.0
+status: candidate
+description: >
+  Faithful to The Economist's graphics style: red masthead rectangle, restrained
+  two-tone charts, short bold chart titles with italic source lines.
+depth_mechanism: >
+  A disciplined multi-chart grid - each chart titled and sourced - packs several
+  distinct visuals into one coherent, restrained page.
+best_for:
+  - Several distinct charts/numbers that should feel coherent
+  - Newsy, intelligent tone
+not_for:
+  - Formula-dense material
+  - Single-visual stories
+density_rating: 4
+default_aspect_ratio: "16:9"
+design_tokens:
+  palette:
+    background: white / pale blue
+    signature: Economist red square
+    charts: two-tone economist blues + red
+  typography:
+    headlines: condensed bold sans-serif
+  layout:
+    - small solid red rectangle top-left
+    - bold headline + lighter deck, thin rule
+    - multi-chart grid, each with a bold short title and italic source line
+    - boxed note
+prompt_scaffold: |
+  A DESIGN in the style "C1: THE ECONOMIST". Landscape 16:9. Faithful to The
+  Economist's graphics style: the signature small RED rectangle masthead accent in
+  the top-left, white/very-pale-blue background, the distinctive Economist palette
+  (red plus economist blues), clean condensed sans-serif headlines, short bold chart
+  titles with an italic source line beneath each chart, a thin rule under the
+  headline. Charts are spare and two-tone - the famous restrained Economist look.
+
+  TOP-LEFT: small solid red rectangle. Headline "{{TITLE}}" with a lighter-weight
+  deck "{{SUBTITLE}}".
+
+  An Economist-style multi-chart grid, each chart with a bold short title above and
+  an italic "Source: {{SOURCE}}" line below, plus a short boxed note, built from:
+  {{CONTENT_BLOCK}}
+
+  Style: unmistakably Economist - red accent, restrained two-tone charts, condensed
+  bold headlines, italic source lines, disciplined grid, premium and legible.
+lineage:
+  parent: c-editorial
+  notes: Tightens the editorial direction into The Economist house style.
+examples:
+  - topic: The Hurst Exponent
+    image: examples/hurst.png
+    aspect_ratio: "16:9"
+tags: [economist, charts, red, two-tone, grid, newsy]

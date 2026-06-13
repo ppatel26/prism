@@ -1,0 +1,60 @@
+id: c2-nyt-bloomberg
+name: NYT / Bloomberg Modern
+family: C
+version: 1.0.0
+status: candidate
+description: >
+  Contemporary NYT / Bloomberg interactive-feature graphic as a static poster. One
+  bold accent, generous whitespace, big charts with direct on-line labels.
+depth_mechanism: >
+  A large hero chart with labels placed directly on the data leads the eye through
+  the story; depth via clarity and emphasis rather than cramming.
+best_for:
+  - One hero chart that tells most of the story
+  - Modern, airy, data-storytelling tone
+not_for:
+  - Many-equation or many-table material
+  - Maximum-density reference posters
+density_rating: 3
+default_aspect_ratio: "16:9"
+design_tokens:
+  palette:
+    background: white
+    accent: rich amber/orange
+    secondary: charcoal + teal
+  typography:
+    headline: large bold modern sans-serif
+    deck: lighter elegant sans-serif
+  layout:
+    - big bold headline + light deck
+    - large annotated lead chart with direct on-line labels (no legends)
+    - supporting row of two smaller figures
+    - full-width number callout
+    - slim charcoal footer bar
+prompt_scaffold: |
+  A DESIGN in the style "C2: NYT / BLOOMBERG MODERN GRAPHICS". Landscape 16:9. The
+  look of a contemporary New York Times / Bloomberg interactive-feature graphic as a
+  static poster: clean white background, a single confident accent color (rich
+  amber/orange) plus charcoal and a secondary teal, large bold modern sans-serif
+  headline with a lighter elegant deck, generous whitespace, big beautiful annotated
+  charts with direct on-chart labels (labels sit right on the lines, no legends),
+  subtle gridlines, smart use of color to guide the eye.
+
+  TOP: big bold charcoal headline "{{TITLE}}" with a lighter deck "{{SUBTITLE}}".
+
+  A storytelling flow - a large hero chart with direct on-line labels, a supporting
+  row of two figures, and a bold full-width number callout, with a slim charcoal
+  footer bar - built from:
+  {{CONTENT_BLOCK}}
+
+  Style: modern premium newsroom data-graphic, big bold sans-serif, one strong
+  accent color, direct on-chart labeling, lots of whitespace, charts as elegant
+  centerpieces, highly legible and sophisticated.
+lineage:
+  parent: c-editorial
+  notes: Modern, airy, single-accent storytelling variant of the editorial direction.
+examples:
+  - topic: The Hurst Exponent
+    image: examples/hurst.png
+    aspect_ratio: "16:9"
+tags: [nyt, bloomberg, modern, hero-chart, whitespace, storytelling]

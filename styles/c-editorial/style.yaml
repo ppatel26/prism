@@ -1,0 +1,59 @@
+id: c-editorial
+name: Editorial Data-Journalism
+family: C
+version: 1.0.0
+status: candidate
+description: >
+  Premium newspaper-graphics desk look (Economist / FT flavor). Cream background,
+  muted sophisticated palette, charts as the hero, masthead rule, headline + deck.
+depth_mechanism: >
+  Polished, well-labeled charts carry the argument; density comes from a few
+  excellent visuals rather than walls of text.
+best_for:
+  - Chart-led stories
+  - Premium, polished tone
+  - When a few visuals tell most of the story
+not_for:
+  - Equation-heavy or formula-dense material
+  - Cramming every detail onto one page
+density_rating: 4
+default_aspect_ratio: "16:9"
+design_tokens:
+  palette:
+    background: cream / ivory
+    accents: deep teal, muted brick-red, mustard, slate gray
+  typography:
+    headlines: elegant condensed sans-serif
+    body: clean serif
+  layout:
+    - thin red masthead rule
+    - headline + italic standfirst/deck
+    - dominant lead chart + supporting explainer cards
+    - italic source lines under charts
+    - boxed editor's note
+prompt_scaffold: |
+  A DESIGN in the style "C: EDITORIAL DATA-JOURNALISM" (The Economist / Financial
+  Times graphics desk). Landscape 16:9. Sophisticated premium newspaper-graphics
+  aesthetic: warm cream/ivory background, a refined muted palette (deep teal, muted
+  brick-red, mustard, slate gray), elegant condensed sans-serif headlines mixed with
+  clean body serif, a thin red rule across the top like a masthead. Charts are the
+  hero - polished and well-labeled.
+
+  TOP: a thin red rule, then a bold headline "{{TITLE}}" and an italic serif
+  standfirst/deck "{{SUBTITLE}}".
+
+  An editorial grid with a dominant lead chart and supporting explainer cards,
+  italic source lines, and a boxed editor's note, built from:
+  {{CONTENT_BLOCK}}
+
+  Style: premium editorial infographic, gorgeous typography hierarchy, muted
+  sophisticated palette, charts as centerpiece, immaculate alignment - the look of
+  award-winning newspaper data journalism. Fully legible.
+lineage:
+  parent: null
+  notes: Round-1 'C' direction; parent of c1-economist and c2-nyt-bloomberg.
+examples:
+  - topic: The Hurst Exponent
+    image: examples/hurst.png
+    aspect_ratio: "16:9"
+tags: [editorial, charts, cream, economist, ft, premium]
