@@ -1,10 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none" role="img" aria-label="Prism">
-  <g fill="none" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
-    <line x1="12" y1="125" x2="79" y2="125" stroke="#3730A3"/>
-    <line x1="79" y1="125" x2="158" y2="121" stroke="#3730A3"/>
-    <line x1="158" y1="121" x2="230" y2="94" stroke="#7C3AED"/>
-    <line x1="158" y1="121" x2="233" y2="121" stroke="#2563EB"/>
-    <line x1="158" y1="121" x2="227" y2="149" stroke="#14B8A6"/>
-    <polygon points="120,55 190,176 50,176" stroke="#3730A3"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 110">
+<!-- Generated with Quiver Arrow 1.1 · symbol-only, text paths removed -->
+  <style>
+    .cls-0 { fill: #222178; }
+    .cls-1 { fill: #763BFF; }
+    .cls-2 { fill: #0049B6; }
+    .cls-3 { fill: #00C1A3; }
+  </style>
+  <!-- Prism triangle + internal beam -->
+  <path class="cls-0" d="m73.1 10-30.1 53.3 3.9 0.1 26.1-46.8 27.7 49.5h-87.5v3.3h89.5l17.8 31.7h-95.3l16.5-28.7h-3.8l-18.4 32.1h106.9l-53.3-94.5z"/>
+  <!-- Violet ray (top) -->
+  <polygon class="cls-1" points="115.5 62.2 132.7 51.4 131 48.4 113.8 59.3"/>
+  <!-- Blue ray (middle) -->
+  <rect class="cls-2" x="116.1" y="66.1" width="20.6" height="3.2"/>
+  <!-- Teal ray (bottom) -->
+  <polygon class="cls-3" points="130.3 85.8 132.1 82.9 115.3 73.3 113.5 76"/>
 </svg>
