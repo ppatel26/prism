@@ -1,6 +1,8 @@
-# Prism
+<p align="center">
+  <img src="assets/logo.svg" alt="Prism" width="680">
+</p>
 
-One idea, refracted into many looks.
+<p align="center"><em>One idea, refracted into many looks.</em></p>
 
 Prism is a small, versioned library of the building blocks for turning dense, technical content (quant finance, systems design, whatever) into infographic posters that are actually readable. It started life as a pile of one-off image prompts and got out of hand - so now it lives here: structured, named, and machine-readable, so an agent or an API can compose from it instead of copy-pasting prompts forever.
 
