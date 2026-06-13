@@ -1,17 +1,110 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 110">
-<!-- Generated with Quiver Arrow 1.1 · symbol-only, text paths removed -->
-  <style>
-    .cls-0 { fill: #222178; }
-    .cls-1 { fill: #763BFF; }
-    .cls-2 { fill: #0049B6; }
-    .cls-3 { fill: #00C1A3; }
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 166.5 122">
+<!-- Generated with Quiver Arrow 1.1 Max (https://quiver.ai) -->
+  <style type="text/css">
+    .cls-0 { fill: #090A14; }
+    .cls-1 { fill: #FFFFFF; }
+    .cls-2 { fill: url(#SVGID_1_); }
+    .cls-3 { fill: none; stroke: #DBE8F7; stroke-width: 1.1893; stroke-miterlimit: 10; }
+    .cls-4 { fill: #6611AC; }
+    .cls-5 { fill: #512D9C; }
+    .cls-6 { fill: #1B144F; }
+    .cls-7 { fill: #1A84EC; }
+    .cls-8 { fill: #1DD1E2; }
+    .cls-9 { fill: #3BD958; }
+    .cls-10 { fill: #FBED21; }
+    .cls-11 { fill: #FA7821; }
+    .cls-12 { fill: #F02532; }
+    .cls-13 { fill: #C64427; }
+    .cls-14 { fill: #AA1E2D; }
+    .cls-15 { fill: #144C7A; }
+    .cls-16 { fill: #176479; }
+    .cls-17 { fill: #24623D; }
+    .cls-18 { fill: #2B9755; }
+    .cls-19 { fill: #802080; }
+    .cls-20 { fill: #327BE4; }
+    .cls-21 { fill: #3CC6DA; }
+    .cls-22 { fill: #5DC65F; }
+    .cls-23 { fill: #DED224; }
+    .cls-24 { fill: #EC7225; }
+    .cls-25 { fill: #C35327; }
+    .cls-26 { fill: #9E1C2A; }
+    .cls-27 { fill: #261358; }
+    .cls-28 { fill: #3E2267; }
+    .cls-29 { fill: #EF3932; }
+    .cls-30 { fill: #FCDF33; }
   </style>
-  <!-- Prism triangle + internal beam -->
-  <path class="cls-0" d="m73.1 10-30.1 53.3 3.9 0.1 26.1-46.8 27.7 49.5h-87.5v3.3h89.5l17.8 31.7h-95.3l16.5-28.7h-3.8l-18.4 32.1h106.9l-53.3-94.5z"/>
-  <!-- Violet ray (top) -->
-  <polygon class="cls-1" points="115.5 62.2 132.7 51.4 131 48.4 113.8 59.3"/>
-  <!-- Blue ray (middle) -->
-  <rect class="cls-2" x="116.1" y="66.1" width="20.6" height="3.2"/>
-  <!-- Teal ray (bottom) -->
-  <polygon class="cls-3" points="130.3 85.8 132.1 82.9 115.3 73.3 113.5 76"/>
+  <defs>
+    <radialGradient id="SVGID_1_" cx="83.33" cy="75.88" r="39.94" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#555F7B" offset="0"/>
+      <stop stop-color="#555F7B" stop-opacity="0" offset=".9988"/>
+    </radialGradient>
+  </defs>
+  <!-- Background -->
+  <rect class="cls-0" width="166.5" height="122"/>
+  <!-- Incoming white beam -->
+  <polygon class="cls-1" points="0 67.1 66.6 67.1 65.4 69.3 0 69.3"/>
+  <!-- Prism body (radial glow) -->
+  <path class="cls-2" d="m83.3 31-39.9 67h79.8l-39.9-67z"/>
+  <!-- Prism triangle outline -->
+  <polygon class="cls-3" points="83.1 38.6 48.6 98.1 117.6 98.1"/>
+  <!-- Spectrum: violet -->
+  <polygon class="cls-4" points="66.9 67.1 94.7 57.7 166.5 7.1 166.5 17.9 95.8 59.9"/>
+  <polygon class="cls-5" points="66.9 67.1 96.8 62.8 166.5 31 166.5 21.7 95.8 59.9"/>
+  <polygon class="cls-6" points="166.5 35.1 97.4 62.6 97.7 62.8 98.7 65 166.5 45.7"/>
+  <!-- Spectrum: blue -->
+  <polygon class="cls-7" points="97.7 62.8 145.3 44.5 166.5 35.1 166.5 45.7 99 64.7"/>
+  <!-- Spectrum: cyan -->
+  <polygon class="cls-8" points="99 64.7 145.6 53.8 166.5 49.1 166.5 59.4 100 66.8"/>
+  <polygon class="cls-8" points="66.9 67.3 97.5 64.1 100 66.8 66.6 68.6"/>
+  <polygon class="cls-20" points="66.9 67.3 97.5 64.1 99 66.8 66.6 68.6"/>
+  <polyline class="cls-21" points="98.4 67.1 146.6 61.6 145.9 54.1 97.7 65"/>
+  <polygon class="cls-8" points="66.6 67.9 97.9 65.6 99.7 68.6 66.6 68.6"/>
+  <!-- Spectrum: green -->
+  <polyline class="cls-9" points="98.4 67.1 147.3 64.1 147.4 71.8 101.2 69.6"/>
+  <polyline class="cls-22" points="66.6 68.6 98.4 67.1 100.6 69.6 66.6 68.6"/>
+  <polygon class="cls-16" points="158.4 51.1 154.6 51.8 156.6 60.5 166.5 59.4 166.5 49.1"/>
+  <polygon class="cls-17" points="166.5 63 159.5 63.4 160.1 72.8 166.5 73.1"/>
+  <polygon class="cls-18" points="155.1 63.7 150.6 64.1 151 72.3 157 72.6 157 63.6"/>
+  <polygon class="cls-16" points="150.2 52.8 148.2 53.3 150.4 61.1 156.3 60.4 155.1 51.8"/>
+  <polygon class="cls-15" points="146 44.1 144.3 44.3 147.2 50.8 151.6 49.8 150.8 42.4"/>
+  <polygon class="cls-15" points="156.6 39.8 152.4 41.4 155 48.4 160.4 47"/>
+  <!-- Violet detail facets -->
+  <polygon class="cls-27" points="152.7 17.3 149.4 19.5 153.5 24.7 157 22.9"/>
+  <polygon class="cls-28" points="148.1 19.3 146 21.4 149.6 26.4 153.5 24.3"/>
+  <polygon class="cls-4" points="145.9 21.4 143.4 23 146.9 28.3 150.8 26.1"/>
+  <polygon class="cls-4" points="142.7 23.4 140.2 25.3 143.9 30.7 147.6 28.4"/>
+  <polygon class="cls-4" points="139.2 26 136.6 27.6 140.6 32.8 143.9 30.7"/>
+  <polygon class="cls-4" points="134.1 29.3 138.1 34.5 141.6 32.4 137.9 27.3"/>
+  <polygon class="cls-5" points="140.9 35.7 143.2 42.4 148.3 40.1 145.7 33.3"/>
+  <polygon class="cls-28" points="149.2 29.9 146.4 31.6 150.2 38.6 155.1 36.6"/>
+  <polygon class="cls-6" points="155 27.7 154.7 27.9 157.9 35.4 166.5 31.4 166.5 21.7"/>
+  <polyline class="cls-5" points="139.2 36.7 142 42.8 145.4 41.3 142.8 34.9"/>
+  <polygon class="cls-7" points="142.7 45.6 144.9 51.8 148.8 50.7 146.4 44.3"/>
+  <polygon class="cls-16" points="158.4 51.1 159.8 59.9 164.3 59.5 162 50.1"/>
+  <polygon class="cls-18" points="159.5 63.4 159.7 72.8 163.1 73 163.4 63.3"/>
+  <polygon class="cls-22" points="147.3 64.1 147.3 71.8 150.8 72 151 63.9"/>
+  <!-- Spectrum: orange/red -->
+  <polygon class="cls-29" points="66.6 69 106.2 78.7 105.5 75.4 103.9 74.7"/>
+  <polygon class="cls-24" points="103 71.9 144.7 83.6 142 89.9 105.5 75.4"/>
+  <polygon class="cls-12" points="105.5 75.4 141.3 92.7 138 98.2 107.9 79.9"/>
+  <polygon class="cls-13" points="148.5 85 145.8 92.1 151.2 94.6 154.6 86.6"/>
+  <polygon class="cls-25" points="157.2 87.7 155.4 97.1 166.5 101.4 166.5 90.4"/>
+  <polygon class="cls-24" points="144.6 83.6 142.1 90.3 148 92.9 151 85.7"/>
+  <polygon class="cls-14" points="153.2 98.6 149.8 106.4 166.5 115.4 166.5 104.7"/>
+  <polygon class="cls-26" points="150.1 98.1 145.9 104.1 152.1 106.6 156.6 100.2"/>
+  <polygon class="cls-14" points="145.3 95.7 143.6 101.9 145.9 103.4 151.4 98.6"/>
+  <polygon class="cls-26" points="142.6 94.3 141.3 99.9 143.6 101.9 148.6 96.6"/>
+  <polygon class="cls-12" points="137.4 97.6 142.7 101.1 144.6 94.7 141.3 92.7"/>
+  <polygon class="cls-25" points="157.1 87.6 154.9 96.6 157.9 97.4 160.9 88.6"/>
+  <polygon class="cls-25" points="151.3 85.9 148.4 93.6 153.6 96.3 157.6 87.6"/>
+  <polygon class="cls-25" points="164 76.3 162.6 86.3 166.5 86.6 166.5 76.6"/>
+  <!-- Spectrum: yellow -->
+  <polygon class="cls-23" points="153.7 75.4 152.4 83.6 158.6 84.6 160.4 75.8"/>
+  <polygon class="cls-23" points="150.6 74.7 149.6 82 155.9 83.6 156.9 75.4"/>
+  <polygon class="cls-23" points="147 74.5 146.2 81.8 151.9 82.8 152.9 75"/>
+  <polygon class="cls-23" points="146.9 74.5 145.8 81.1 148.6 81.8 150.2 74.3"/>
+  <polygon class="cls-30" points="101.6 69.6 146.9 74.5 145.8 81.1 103.6 71.9"/>
+  <polygon class="cls-30" points="66.6 68.6 100.1 69.4 102.4 71.9 66.6 68.9"/>
+  <polygon class="cls-23" points="66.6 68.6 101.9 71.9 103.6 74.5 66.6 69"/>
+  <polygon class="cls-24" points="66.6 68.6 103 71.9 105.5 75.8"/>
 </svg>
