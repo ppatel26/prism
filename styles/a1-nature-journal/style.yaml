@@ -1,0 +1,78 @@
+id: a1-nature-journal
+name: Nature / Science Journal
+family: A
+version: 1.0.0
+status: approved
+description: >
+  A premium peer-reviewed science-journal page. Bold colored masthead bar,
+  two-column justified body, numbered Figure/Table panels with bold captions.
+  The house style for dense quant posters.
+depth_mechanism: >
+  Numbered Figure and Table boxes break a wall of text into scannable, captioned
+  evidence units, so density reads as structure rather than clutter.
+best_for:
+  - Dense technical topics that mix prose, figures, and tables
+  - Balanced density with clear visual anchors
+  - Authoritative, credible tone
+not_for:
+  - Casual or playful content
+  - Single-glance summaries (use a lower zoom or sparser style)
+density_rating: 5
+default_aspect_ratio: "16:9"
+design_tokens:
+  palette:
+    background: crisp white
+    masthead: deep forest green (swap per topic)
+    accent_primary: navy
+    accent_secondary: amber
+  typography:
+    headers: clean Helvetica-like sans-serif
+    body: readable serif
+    captions: small bold sans-serif
+  layout:
+    - full-width colored masthead bar with white title + sub-line
+    - italic abstract box spanning columns, thin rule border
+    - two-column justified body
+    - bordered, numbered Figure panels with bold captions
+    - one ruled Table
+    - shaded caveat/robustness box
+    - tiny serif references footer
+prompt_scaffold: |
+  A DESIGN in the style "A1: NATURE / SCIENCE JOURNAL". Landscape 16:9. The look of
+  a premium peer-reviewed science journal page (Nature, Science): crisp white
+  background, a bold colored masthead bar across the very top ({{MASTHEAD_COLOR}})
+  carrying the title in white, clean Helvetica-like sans-serif headers paired with a
+  readable serif body, true TWO-COLUMN academic layout with justified text,
+  prominent boxed numbered "Figure 1 / Figure 2 ..." panels with bold figure
+  captions beneath them, and a ruled "Table 1". Dense but immaculately organized and
+  fully legible.
+
+  MASTHEAD BAR ({{MASTHEAD_COLOR}}, white text): Title "{{TITLE}}" small white
+  sub-line: "{{SUBTITLE}}".
+
+  ABSTRACT box spanning the top (italic serif, thin rule border): "{{ABSTRACT}}".
+
+  TWO-COLUMN BODY with embedded numbered Figures, a Table, and a shaded caveat box,
+  built from this content:
+  {{CONTENT_BLOCK}}
+
+  A small references-style footer line in tiny serif: "{{FOOTER}}".
+
+  Style: authoritative top-tier science journal, bold masthead, italic abstract,
+  two-column justified text, formal numbered Figures and a Table with bold captions,
+  displayed equations where relevant, a shaded caveat box - scholarly, dense,
+  information-rich, fully legible.
+lineage:
+  parent: null
+  notes: Refinement of the round-1 'A - Scientific Journal / Whitepaper' direction; adds a colored masthead and formal numbered figures.
+examples:
+  - topic: The Hurst Exponent
+    image: examples/hurst.png
+    aspect_ratio: "16:9"
+  - topic: Stacking Carry (oil + bonds synthetic TIPS)
+    image: examples/stacking-carry.png
+    aspect_ratio: "16:9"
+  - topic: TIPS vs Oil+TLT synthetic - pricing comparison
+    image: examples/tips-vs-synthetic.png
+    aspect_ratio: "16:9"
+tags: [journal, serif, masthead, figures, dense, quant]

@@ -1,0 +1,63 @@
+id: a4-working-paper
+name: NBER / Working-Paper Poster
+family: A
+version: 1.0.0
+status: candidate
+description: >
+  An economics working-paper turned conference poster. Maroon section headers, an
+  abstract box, and a strict Motivation -> Method -> Results -> Robustness flow.
+depth_mechanism: >
+  A numbered argument spine (Motivation, Method, Results, Robustness, References)
+  forces content into a defensible logical flow rather than loose panels.
+best_for:
+  - A rigorous overview you can defend
+  - Argument-driven topics with a clear thesis
+  - Adding scholarly weight (references footer)
+not_for:
+  - Playful or visual-first content
+  - Single-chart stories
+density_rating: 5
+default_aspect_ratio: "16:9"
+design_tokens:
+  palette:
+    background: white
+    headers: deep maroon
+    text: black
+    accent: slate gray (boxes)
+  typography:
+    headers: bold sans-serif
+    body: serious serif
+  layout:
+    - thin maroon rule top/bottom title banner
+    - italic abstract box
+    - numbered ruled sections (Motivation / Method / Results / Robustness)
+    - ruled results table + estimation figure
+    - small references footer
+prompt_scaffold: |
+  A DESIGN in the style "A4: NBER / SSRN WORKING-PAPER POSTER". Landscape 16:9. The
+  look of an academic economics working-paper turned clean conference poster: crisp
+  white background, a sober institutional palette (black text, deep maroon section
+  headers, one slate-gray for boxes), a serious serif body with bold sans-serif
+  section headers, a structured poster grid, and a strong logical argument flow:
+  Motivation -> Definition -> Method -> Results -> Robustness.
+
+  TOP BANNER (thin maroon rule top and bottom): Title "{{TITLE}}" with a smaller
+  institutional sub-line "{{SUBTITLE}}", and a small italic abstract box beneath.
+
+  POSTER GRID with ruled, maroon-headed numbered sections, a results table, an
+  estimation figure, and a robustness/caveat box, built from:
+  {{CONTENT_BLOCK}}
+
+  A small "REFERENCES" footer in tiny serif: "{{REFERENCES}}".
+
+  Style: authentic economics working-paper poster, serif body with bold headers,
+  maroon/slate institutional palette, ruled numbered sections, results table and
+  estimation figure, references footer - dense, rigorous, organized, fully legible.
+lineage:
+  parent: a1-nature-journal
+  notes: Most argument-driven A variant; numbered Motivation->Results->Robustness spine.
+examples:
+  - topic: The Hurst Exponent
+    image: examples/hurst.png
+    aspect_ratio: "16:9"
+tags: [working-paper, nber, maroon, argument-flow, references, dense]

@@ -1,0 +1,61 @@
+id: a3-textbook-spread
+name: Technical Textbook Spread
+family: A
+version: 1.0.0
+status: candidate
+description: >
+  A dense quant-textbook double-page spread (Hull / Sinclair vibe). Three-column
+  serif, margin equation numbers, margin notes, and tinted worked-example boxes.
+depth_mechanism: >
+  Tinted worked-example boxes carry real numbers all the way through, so the method
+  is shown being executed - the deepest form of teaching density.
+best_for:
+  - Learning and retaining a method step by step
+  - Topics that benefit from a fully worked numeric example
+  - Equation + figure + prose mixes
+not_for:
+  - Quick reference
+  - Sparse or visual-first content
+density_rating: 5
+default_aspect_ratio: "16:9"
+design_tokens:
+  palette:
+    background: white
+    text: black
+    accent: scholarly dark blue (headers, example boxes)
+  typography:
+    headers: bold section headers
+    body: classic serif
+  layout:
+    - running header like a textbook chapter
+    - three-column body
+    - numbered equations in the right margin (1), (2), (3)
+    - outer-margin notes
+    - tinted Worked Example boxes with a small inset figure
+    - tinted Caution box
+prompt_scaffold: |
+  A DESIGN in the style "A3: TECHNICAL TEXTBOOK SPREAD". Landscape 16:9. The look of
+  a dense quantitative-finance textbook double-page spread (Hull, or Sinclair's
+  options books): clean white background, classic serif body type, a restrained
+  two-color scheme (black text plus one scholarly dark-blue accent for headers and
+  boxed examples), a true multi-column textbook layout. Heavy on WORKED EXAMPLES in
+  tinted boxes, numbered equations on the right margin like (1), (2), (3), margin
+  notes in the outer margin, and small precise figures with figure numbers.
+
+  RUNNING HEADER (top, like a textbook): left "{{CHAPTER}}" right "{{TITLE}}".
+
+  THREE-COLUMN body, with at least one tinted "WORKED EXAMPLE" box carrying real
+  numbers through to a result, and a tinted "CAUTION" box, built from:
+  {{CONTENT_BLOCK}}
+
+  Style: authentic dense technical textbook spread, serif type, two-color, numbered
+  equations in margins, tinted worked-example and caution boxes, margin notes, small
+  embedded figures - scholarly, information-rich, fully legible.
+lineage:
+  parent: a1-nature-journal
+  notes: Trades the journal masthead for a textbook chapter feel; adds worked-example boxes and margin equation numbers.
+examples:
+  - topic: The Hurst Exponent
+    image: examples/hurst.png
+    aspect_ratio: "16:9"
+tags: [textbook, serif, worked-example, margin-notes, dense, teaching]

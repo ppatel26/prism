@@ -1,0 +1,64 @@
+id: a2-arxiv-preprint
+name: arXiv Preprint / LaTeX
+family: A
+version: 1.0.0
+status: candidate
+description: >
+  An austere LaTeX/arXiv preprint. Computer Modern serif, almost no color,
+  equation-centric with boxed Definition/Result theorems and an abstract.
+depth_mechanism: >
+  Equation and theorem/definition boxes carry meaning as formal statements; rigor
+  substitutes for decoration.
+best_for:
+  - Equation-heavy topics
+  - Maximum mathematical rigor
+  - Readers who want a formal, scholarly artifact
+not_for:
+  - Visual-first or casual content
+  - Glanceable summaries
+density_rating: 4
+default_aspect_ratio: "16:9"
+design_tokens:
+  palette:
+    background: plain white
+    text: black
+    accent: dark blue (section numbers, equation labels only)
+  typography:
+    body: Computer Modern serif
+  layout:
+    - centered paper title + author-style line
+    - indented italic abstract
+    - numbered sections
+    - ruled Definition / Result theorem boxes
+    - displayed equations with right-margin numbers
+    - thin footnote rule + references
+prompt_scaffold: |
+  A DESIGN in the style "A2: arXiv PREPRINT / LaTeX MINIMALIST". Landscape 16:9. The
+  pure austere look of a LaTeX/arXiv preprint: plain white background, NO color
+  except black text and one restrained dark-blue accent used only for section
+  numbers and equation labels, classic Computer Modern serif typography, a mix of
+  single and double column, heavy emphasis on EQUATIONS and theorem/definition boxes
+  with thin black rules. Mathematical, spare, elegant, scholarly.
+
+  TITLE (centered, Computer Modern serif): "{{TITLE}}" with a centered italic
+  sub-line: "{{SUBTITLE}}".
+
+  ABSTRACT block (italic, indented): "{{ABSTRACT}}".
+
+  NUMBERED SECTIONS, ruled definition/result boxes, and displayed equations with
+  right-margin numbers, built from:
+  {{CONTENT_BLOCK}}
+
+  A thin footnote rule at the bottom with a small reference-style line: "{{FOOTER}}".
+
+  Style: authentic academic preprint, Computer Modern serif, equation-centric,
+  theorem/definition boxes with thin rules, almost no color, scholarly minimalism,
+  fully legible.
+lineage:
+  parent: a1-nature-journal
+  notes: Same family, stripped of color and figures; pushes rigor over visuals.
+examples:
+  - topic: The Hurst Exponent
+    image: examples/hurst.png
+    aspect_ratio: "16:9"
+tags: [arxiv, latex, serif, equations, minimal, rigorous]
