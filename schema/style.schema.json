@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ppatel26/prism/schema/style.schema.json",
+  "title": "Prism Style",
+  "description": "A reusable art-direction style for generating dense infographic posters.",
+  "type": "object",
+  "required": ["id", "name", "family", "version", "status", "description", "prompt_scaffold"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$", "description": "Stable kebab-case identifier, e.g. 'a1-nature-journal'."},
+    "name": {"type": "string"},
+    "family": {"type": "string", "description": "Style family. A = Journal/Whitepaper, C = Editorial Data-Journalism. Extend as new families emerge."},
+    "version": {"type": "string", "description": "Semantic version of this style entry."},
+    "status": {"type": "string", "enum": ["approved", "candidate", "draft", "deprecated"]},
+    "description": {"type": "string"},
+    "depth_mechanism": {"type": "string", "description": "How this style carries information density."},
+    "best_for": {"type": "array", "items": {"type": "string"}},
+    "not_for": {"type": "array", "items": {"type": "string"}},
+    "density_rating": {"type": "integer", "minimum": 1, "maximum": 5, "description": "How much information the style comfortably holds. 1 = sparse, 5 = very dense."},
+    "default_aspect_ratio": {"type": "string", "enum": ["1:1", "16:9", "9:16", "4:3", "3:4"]},
+    "design_tokens": {
+      "type": "object",
+      "properties": {
+        "palette": {"type": "object"},
+        "typography": {"type": "object"},
+        "layout": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "prompt_scaffold": {"type": "string", "description": "Reusable art-direction prompt with a {{CONTENT_BLOCK}} slot for topic-specific content."},
+    "lineage": {
+      "type": "object",
+      "properties": {
+        "parent": {"type": ["string", "null"]},
+        "notes": {"type": "string"}
+      }
+    },
+    "examples": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["topic"],
+        "properties": {
+          "topic": {"type": "string"},
+          "image": {"type": "string"},
+          "prompt": {"type": "string"},
+          "aspect_ratio": {"type": "string"}
+        }
+      }
+    },
+    "tags": {"type": "array", "items": {"type": "string"}}
+  }
+}

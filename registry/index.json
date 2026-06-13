@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "note": "Build artifact. Regenerate with scripts/build_index.py.",
+  "styles": [
+    {"id": "a1-nature-journal", "name": "Nature / Science Journal", "family": "A", "status": "approved", "density_rating": 5, "default_aspect_ratio": "16:9", "depth_mechanism": "Numbered Figure/Table boxes break text into scannable captioned units", "best_for": ["dense technical posters", "balanced density with anchors", "authoritative tone"]},
+    {"id": "a2-arxiv-preprint", "name": "arXiv Preprint / LaTeX", "family": "A", "status": "candidate", "density_rating": 4, "default_aspect_ratio": "16:9", "depth_mechanism": "Equation and theorem/definition boxes; rigor over decoration", "best_for": ["equation-heavy topics", "maximum rigor"]},
+    {"id": "a3-textbook-spread", "name": "Technical Textbook Spread", "family": "A", "status": "candidate", "density_rating": 5, "default_aspect_ratio": "16:9", "depth_mechanism": "Tinted worked-example boxes carry real numbers through to a result", "best_for": ["learning a method step by step", "worked numeric examples"]},
+    {"id": "a4-working-paper", "name": "NBER / Working-Paper Poster", "family": "A", "status": "candidate", "density_rating": 5, "default_aspect_ratio": "16:9", "depth_mechanism": "Numbered Motivation->Method->Results->Robustness argument spine", "best_for": ["defensible argument-driven overview", "thesis-led topics"]},
+    {"id": "c-editorial", "name": "Editorial Data-Journalism", "family": "C", "status": "candidate", "density_rating": 4, "default_aspect_ratio": "16:9", "depth_mechanism": "Polished well-labeled charts carry the argument", "best_for": ["chart-led stories", "premium polished tone"]},
+    {"id": "c1-economist", "name": "The Economist", "family": "C", "status": "candidate", "density_rating": 4, "default_aspect_ratio": "16:9", "depth_mechanism": "Disciplined multi-chart grid, each chart titled and sourced", "best_for": ["several coherent charts", "newsy tone"]},
+    {"id": "c2-nyt-bloomberg", "name": "NYT / Bloomberg Modern", "family": "C", "status": "candidate", "density_rating": 3, "default_aspect_ratio": "16:9", "depth_mechanism": "A large hero chart with direct on-line labels leads the eye", "best_for": ["one hero chart", "airy modern storytelling"]}
+  ]
+}
